@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-passed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>C:\MavenProject\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">17 methods,   17 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestMethod.PizzaHutTest" class="method navigator-link" hash-for-method="Change_the_Payment_option_to_Cash">Change_the_Payment_option_to_Cash</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestMethod.PizzaHutTest" class="method navigator-link" hash-for-method="Click_on_the_Apply_Gift_Card_link">Click_on_the_Apply_Gift_Card_link</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestMethod.PizzaHutTest" class="method navigator-link" hash-for-method="Click_on_the_Voucher_toggle">Click_on_the_Voucher_toggle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestMethod.PizzaHutTest" class="method navigator-link" hash-for-method="Enter_name_mobile_and_email_addresses">Enter_name_mobile_and_email_addresses</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestMethod.PizzaHutTest" class="method navigator-link" hash-for-method="Give_the_Voucher_code_and_submit">Give_the_Voucher_code_and_submit</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestMethod.PizzaHutTest" class="method navigator-link" hash-for-method="Validate_error_and_Close_the_voucher_pop_up">Validate_error_and_Close_the_voucher_pop_up</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestMethod.PizzaHutTest" class="method navigator-link" hash-for-method="Validate_that_the_I_agree_checkbox_is_checked_by_default">Validate_that_the_I_agree_checkbox_is_checked_by_default</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestMethod.PizzaHutTest" class="method navigator-link" hash-for-method="Validate_that_the_Online_Payment_radio_button_is_selected_by_default">Validate_that_the_Online_Payment_radio_button_is_selected_by_default</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestMethod.PizzaHutTest" class="method navigator-link" hash-for-method="close_Black_Colour_Auto_Popup_Screen">close_Black_Colour_Auto_Popup_Screen</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestMethod.PizzaHutTest" class="method navigator-link" hash-for-method="user_Add_Two_Drinks">user_Add_Two_Drinks</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestMethod.PizzaHutTest" class="method navigator-link" hash-for-method="user_Add_any_Item">user_Add_any_Item</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestMethod.PizzaHutTest" class="method navigator-link" hash-for-method="user_Go_to_sides">user_Go_to_sides</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestMethod.PizzaHutTest" class="method navigator-link" hash-for-method="user_Navigate_To_Drinks">user_Navigate_To_Drinks</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestMethod.PizzaHutTest" class="method navigator-link" hash-for-method="user_Set_The_Delivery_Location_as_Lulu_mall">user_Set_The_Delivery_Location_as_Lulu_mall</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestMethod.PizzaHutTest" class="method navigator-link" hash-for-method="user_able_to_Navigate_URL">user_able_to_Navigate_URL</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestMethod.PizzaHutTest" class="method navigator-link" hash-for-method="user_will_be_navigated_to_the_checkout_page">user_will_be_navigated_to_the_checkout_page</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestMethod.PizzaHutTest" class="method navigator-link" hash-for-method="validate_that_the_URL_has_text_as_deals">validate_that_the_URL_has_text_as_deals</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestMethod.PizzaHutTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Change_the_Payment_option_to_Cash">
+                  </a> <!-- Change_the_Payment_option_to_Cash -->
+                  <span class="method-name">Change_the_Payment_option_to_Cash</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Click_on_the_Apply_Gift_Card_link">
+                  </a> <!-- Click_on_the_Apply_Gift_Card_link -->
+                  <span class="method-name">Click_on_the_Apply_Gift_Card_link</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Click_on_the_Voucher_toggle">
+                  </a> <!-- Click_on_the_Voucher_toggle -->
+                  <span class="method-name">Click_on_the_Voucher_toggle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Enter_name_mobile_and_email_addresses">
+                  </a> <!-- Enter_name_mobile_and_email_addresses -->
+                  <span class="method-name">Enter_name_mobile_and_email_addresses</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Give_the_Voucher_code_and_submit">
+                  </a> <!-- Give_the_Voucher_code_and_submit -->
+                  <span class="method-name">Give_the_Voucher_code_and_submit</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Validate_error_and_Close_the_voucher_pop_up">
+                  </a> <!-- Validate_error_and_Close_the_voucher_pop_up -->
+                  <span class="method-name">Validate_error_and_Close_the_voucher_pop_up</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Validate_that_the_I_agree_checkbox_is_checked_by_default">
+                  </a> <!-- Validate_that_the_I_agree_checkbox_is_checked_by_default -->
+                  <span class="method-name">Validate_that_the_I_agree_checkbox_is_checked_by_default</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Validate_that_the_Online_Payment_radio_button_is_selected_by_default">
+                  </a> <!-- Validate_that_the_Online_Payment_radio_button_is_selected_by_default -->
+                  <span class="method-name">Validate_that_the_Online_Payment_radio_button_is_selected_by_default</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="close_Black_Colour_Auto_Popup_Screen">
+                  </a> <!-- close_Black_Colour_Auto_Popup_Screen -->
+                  <span class="method-name">close_Black_Colour_Auto_Popup_Screen</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="user_Add_Two_Drinks">
+                  </a> <!-- user_Add_Two_Drinks -->
+                  <span class="method-name">user_Add_Two_Drinks</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="user_Add_any_Item">
+                  </a> <!-- user_Add_any_Item -->
+                  <span class="method-name">user_Add_any_Item</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="user_Go_to_sides">
+                  </a> <!-- user_Go_to_sides -->
+                  <span class="method-name">user_Go_to_sides</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="user_Navigate_To_Drinks">
+                  </a> <!-- user_Navigate_To_Drinks -->
+                  <span class="method-name">user_Navigate_To_Drinks</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="user_Set_The_Delivery_Location_as_Lulu_mall">
+                  </a> <!-- user_Set_The_Delivery_Location_as_Lulu_mall -->
+                  <span class="method-name">user_Set_The_Delivery_Location_as_Lulu_mall</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="user_able_to_Navigate_URL">
+                  </a> <!-- user_able_to_Navigate_URL -->
+                  <span class="method-name">user_able_to_Navigate_URL</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="user_will_be_navigated_to_the_checkout_page">
+                  </a> <!-- user_will_be_navigated_to_the_checkout_page -->
+                  <span class="method-name">user_will_be_navigated_to_the_checkout_page</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validate_that_the_URL_has_text_as_deals">
+                  </a> <!-- validate_that_the_URL_has_text_as_deals -->
+                  <span class="method-name">validate_that_the_URL_has_text_as_deals</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\MavenProject\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;AppPage.ExtentReportListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;TestMethod.PizzaHutTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(17);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'user_able_to_Navigate_URL')
+data.setCell(0, 2, 'TestMethod.PizzaHutTest')
+data.setCell(0, 3, 11371);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'user_Set_The_Delivery_Location_as_Lulu_mall')
+data.setCell(1, 2, 'TestMethod.PizzaHutTest')
+data.setCell(1, 3, 10843);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'close_Black_Colour_Auto_Popup_Screen')
+data.setCell(2, 2, 'TestMethod.PizzaHutTest')
+data.setCell(2, 3, 10029);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'Enter_name_mobile_and_email_addresses')
+data.setCell(3, 2, 'TestMethod.PizzaHutTest')
+data.setCell(3, 3, 3635);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'user_Add_Two_Drinks')
+data.setCell(4, 2, 'TestMethod.PizzaHutTest')
+data.setCell(4, 3, 1308);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'Give_the_Voucher_code_and_submit')
+data.setCell(5, 2, 'TestMethod.PizzaHutTest')
+data.setCell(5, 3, 1203);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'Validate_error_and_Close_the_voucher_pop_up')
+data.setCell(6, 2, 'TestMethod.PizzaHutTest')
+data.setCell(6, 3, 976);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'user_Add_any_Item')
+data.setCell(7, 2, 'TestMethod.PizzaHutTest')
+data.setCell(7, 3, 590);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'Click_on_the_Apply_Gift_Card_link')
+data.setCell(8, 2, 'TestMethod.PizzaHutTest')
+data.setCell(8, 3, 524);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'user_will_be_navigated_to_the_checkout_page')
+data.setCell(9, 2, 'TestMethod.PizzaHutTest')
+data.setCell(9, 3, 380);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'user_Navigate_To_Drinks')
+data.setCell(10, 2, 'TestMethod.PizzaHutTest')
+data.setCell(10, 3, 305);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'user_Go_to_sides')
+data.setCell(11, 2, 'TestMethod.PizzaHutTest')
+data.setCell(11, 3, 145);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'Click_on_the_Voucher_toggle')
+data.setCell(12, 2, 'TestMethod.PizzaHutTest')
+data.setCell(12, 3, 129);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'Change_the_Payment_option_to_Cash')
+data.setCell(13, 2, 'TestMethod.PizzaHutTest')
+data.setCell(13, 3, 117);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'Validate_that_the_Online_Payment_radio_button_is_selected_by_default')
+data.setCell(14, 2, 'TestMethod.PizzaHutTest')
+data.setCell(14, 3, 76);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'validate_that_the_URL_has_text_as_deals')
+data.setCell(15, 2, 'TestMethod.PizzaHutTest')
+data.setCell(15, 3, 31);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'Validate_that_the_I_agree_checkbox_is_checked_by_default')
+data.setCell(16, 2, 'TestMethod.PizzaHutTest')
+data.setCell(16, 3, 26);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 41 seconds</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestMethod.PizzaHutTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">beforeSuite</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">178 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">user_able_to_Navigate_URL</span>
+                <span class="method-start">6991 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">close_Black_Colour_Auto_Popup_Screen</span>
+                <span class="method-start">18377 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">user_Set_The_Delivery_Location_as_Lulu_mall</span>
+                <span class="method-start">28412 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validate_that_the_URL_has_text_as_deals</span>
+                <span class="method-start">39261 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">user_Go_to_sides</span>
+                <span class="method-start">39292 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">user_Add_any_Item</span>
+                <span class="method-start">39437 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">user_Navigate_To_Drinks</span>
+                <span class="method-start">40028 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">user_Add_Two_Drinks</span>
+                <span class="method-start">40341 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">user_will_be_navigated_to_the_checkout_page</span>
+                <span class="method-start">41649 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Validate_that_the_Online_Payment_radio_button_is_selected_by_default</span>
+                <span class="method-start">42033 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Change_the_Payment_option_to_Cash</span>
+                <span class="method-start">42111 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Validate_that_the_I_agree_checkbox_is_checked_by_default</span>
+                <span class="method-start">42230 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Enter_name_mobile_and_email_addresses</span>
+                <span class="method-start">42259 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Click_on_the_Apply_Gift_Card_link</span>
+                <span class="method-start">45897 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Click_on_the_Voucher_toggle</span>
+                <span class="method-start">46435 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Give_the_Voucher_code_and_submit</span>
+                <span class="method-start">46564 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Validate_error_and_Close_the_voucher_pop_up</span>
+                <span class="method-start">47769 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">48748 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-suite after">
+                <span class="method-name">afterSuite</span>
+                <span class="method-start">49263 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
